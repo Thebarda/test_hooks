@@ -8,6 +8,6 @@ export default class Screen extends PureComponent {
 
   render() {
     const { todoToAdd } = this.props
-    return <em>{todoToAdd === '' ? "You can't an empty todo" : `Hit Enter to add : ${todoToAdd}`}</em>
+    return <em>{todoToAdd === '' ? "You can't add an empty todo" : `Hit Enter to add : ${todoToAdd}`}</em>
   }
 }
